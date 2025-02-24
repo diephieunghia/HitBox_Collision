@@ -111,7 +111,7 @@ namespace _2025_02_24_T2.Character_List
                 }
                 for(int i=0; i < list.Count; i++)
                 {
-                    if ((temp.list[0].GetType() == list[i].GetType())&&&&((x-1)!=i))
+                    if ((temp.list[0].GetType() == list[i].GetType())&&((x-1)!=i))
                         temp.list.Add(list[i]);
                 }             
                 temp.list.RemoveAt(0);
