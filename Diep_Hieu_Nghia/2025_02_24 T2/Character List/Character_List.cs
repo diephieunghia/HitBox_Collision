@@ -30,26 +30,37 @@ namespace _2025_02_24_T2.Character_List
                 {
                     if (a == 1)
                     {
-                        list.Add(new Character.Rya(3,0));
+                        Character.Character rya = new Character.Rya();
+                        rya.Input();
+                        list.Add(rya);
                         break;
                     }
                     else if (a == 2)
                     {
-                        list.Add(new Character.Armor_Sword_Man(1,1));
+                        Character.Character armor = new Character.Armor_Sword_Man();
+                        armor.Input();
+                        list.Add(armor);
                         break;
                     }
                     else if (a == 3)
                     {
-                        list.Add(new Character.Banshee(5,4));
+                        Character.Character banshee = new Character.Banshee();
+                        banshee.Input();
+                        list.Add(banshee);
                         break;
                     }
                     else if (a == 4)
                     {
-                        list.Add(new Character.Bat_Man(6,3));
+                        Character.Character batman = new Character.Bat_Man();
+                        batman.Input();
+                        list.Add(batman);
                         break;
                     }
                     else if (a == 5)
-                    { list.Add(new Character.Bomberhead(9,7));
+                    {
+                        Character.Character bomberhead = new Character.Bomberhead();
+                        bomberhead.Input();
+                        list.Add(new Character.Bomberhead(9,7));
                         break;
                     }
                     else
@@ -113,8 +124,9 @@ namespace _2025_02_24_T2.Character_List
                 {
                     if ((temp.list[0].GetType() == list[i].GetType())&&((x-1)!=i))
                         temp.list.Add(list[i]);
-                }             
+                }               
                 temp.list.RemoveAt(0);
+                
             }
             return temp;
         }
