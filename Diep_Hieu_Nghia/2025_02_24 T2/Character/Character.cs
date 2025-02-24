@@ -36,5 +36,13 @@ namespace _2025_02_24_T2.Character
             }
             return false;
         }
+        public void Input()
+        {
+            Console.WriteLine("Input x, y:");
+            Console.WriteLine("x:");
+            x=int.Parse(Console.ReadLine());
+            Console.WriteLine("y:");
+            y = int.Parse(Console.ReadLine());
+        }
     }
 }
