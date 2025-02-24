@@ -1,0 +1,7 @@
+D:\Ngia\2025_02_24 T2\2025_02_24 T2\bin\Debug\2025_02_24 T2.exe.config
+D:\Ngia\2025_02_24 T2\2025_02_24 T2\bin\Debug\2025_02_24 T2.exe
+D:\Ngia\2025_02_24 T2\2025_02_24 T2\bin\Debug\2025_02_24 T2.pdb
+D:\Ngia\2025_02_24 T2\2025_02_24 T2\obj\Debug\2025_02_24 T2.csproj.AssemblyReference.cache
+D:\Ngia\2025_02_24 T2\2025_02_24 T2\obj\Debug\2025_02_24 T2.csproj.CoreCompileInputs.cache
+D:\Ngia\2025_02_24 T2\2025_02_24 T2\obj\Debug\2025_02_24 T2.exe
+D:\Ngia\2025_02_24 T2\2025_02_24 T2\obj\Debug\2025_02_24 T2.pdb
